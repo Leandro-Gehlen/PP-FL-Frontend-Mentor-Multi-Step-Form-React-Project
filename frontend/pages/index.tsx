@@ -2,6 +2,8 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
+import { Footer } from '../components/footer/footer'
+
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -15,10 +17,8 @@ const Home: NextPage = () => {
 
       </main>
 
-      <footer className={styles.footer}>
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">Your Name Here</a>.
-      </footer>
+      <Footer />
+
     </div>
   )
 }
