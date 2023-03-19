@@ -1,9 +1,9 @@
-
+import styles from '../footer/footer.module.css'
 
 const Footer = () => {
     return (
         <footer>
-            <p>
+            <p className={styles.paragraph}>
                 Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
                 Coded by <a href="https://github.com/Leandro-Gehlen">Leandro Gehlen</a>.
             </p>
@@ -11,4 +11,4 @@ const Footer = () => {
     )
 }
 
-export { Footer }
+export default Footer
