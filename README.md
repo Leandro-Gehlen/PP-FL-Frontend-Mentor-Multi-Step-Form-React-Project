@@ -1,4 +1,4 @@
-# Frontend Mentor - Multi-step form
+# Frontend Mentor - Multi-step form - with React JS
 
 ![Design preview for the Multi-step form coding challenge](./design/desktop-preview.jpg)
 
